@@ -1,16 +1,16 @@
 {
-    "user": "samp-incognito",
-    "repo": "samp-streamer-plugin",
+    "user": "blefnk",
+    "repo": "streamer",
     "resources": [
         {
-            "name": "^samp-streamer-plugin-(.*).zip$",
+            "name": "^streamer-(.*).zip$",
             "platform": "linux",
             "archive": true,
             "includes": ["pawno/include"],
             "plugins": ["plugins/streamer.so"]
         },
         {
-            "name": "^samp-streamer-plugin-(.*).zip$",
+            "name": "^streamer-(.*).zip$",
             "platform": "windows",
             "archive": true,
             "includes": ["pawno/include"],
@@ -18,6 +18,6 @@
         }
     ],
     "runtime": {
-        "plugins": ["samp-incognito/samp-streamer-plugin"]
+        "plugins": ["blefnk/streamer"]
     }
 }
